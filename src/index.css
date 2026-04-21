@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7C5DFA;
+  --color-primary-hover: #9277FF;
+  --color-dark-main: #141625;
+  --color-dark-card: #1E2139;
+  --color-light-main: #F8F8FB;
+  --color-light-card: #FFFFFF;
+  --color-text-grey: #888EB0;
+  --color-text-navy: #0C0E16;
+  --color-danger: #EC5757;
+  --color-danger-hover: #FF9797;
+  
+  --font-sans: "Inter", "Spartan", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+.invoice-shadow {
+  box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.1);
+}
+
+.dark .invoice-shadow {
+  box-shadow: none;
+}

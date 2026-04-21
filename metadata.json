@@ -1,0 +1,6 @@
+{
+  "name": "Invoice Manager",
+  "description": "A professional invoice management application with full CRUD functionality, theme toggling, and data persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["CRUD", "Theme Toggling", "Responsive Design"]
+}
